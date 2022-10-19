@@ -10,13 +10,70 @@
   </head>
   <body>
     <header>
-      <h1></h1>
-      <nav></nav>
+      <h1>Turistička agencija "Avanturist"</h1>
+      <nav>
+        <a href="#onama">O nama</a> |
+        <a href="#djelatnosti">Naše djelatnosti</a> |
+        <a href="#kontakt">Kontakt</a>
+      </nav>
     </header>
+    <hr />
     <main>
-      <section></section>
-      <section></section>
+      <h1>Turistička agencija "Avanturist"</h1>
+      <br />
+      <section id="onama">
+        <h2>O nama</h2>
+        <br />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+          culpa dolorem accusantium optio, numquam, eos, quidem sapiente placeat
+          consectetur modi dolore nobis dolorum quod veniam molestias quis rem
+          dolor laudantium?
+        </p>
+        <br />
+        <img src="./team.jpg" alt="team" /><br />
+      </section>
+      <section id="djelatnosti">
+        <h2>Naše djelatnosti</h2>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo commodi
+          exercitationem recusandae, sapiente numquam porro sint minima a odio
+          eum molestias dicta labore delectus ratione ad praesentium ullam
+          voluptatum enim.
+        </p>
+        <br />
+        <img src="./adventure.jpg" alt="adventure" />
+      </section>
+      <asection id="kontakt">
+        <h2>Kontakt</h2>
+        <br />
+        <form action="#" method="post">
+          <label for="fname">Ime:</label>
+          <input type="text" id="fname" name="fname" required /> <br />
+          <br />
+          <label for="lname">Prezime</label>
+          <input type="text" id="lname" name="lname" required /><br /><br />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            value="imeiprezime@mail.com"
+            required
+          />
+          <br /><br />
+          <label for="post">Upišite poruku:</label><br /><br />
+          <textarea name="post" id="post" cols="50" rows="5"> ....</textarea
+          ><br /><br />
+          <input type="submit" value="Predaj" />
+        </form>
+    </section>
     </main>
-    <footer></footer>
+    <hr />
+    <footer>
+      Avanturist © 2022. <br />
+      <a href="mailto:imeiprezime@mail.com"> <img src="./mail.png" /> </a>
+    </footer>
   </body>
 </html>

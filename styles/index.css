@@ -1,0 +1,56 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+}
+
+header{
+    height: 10vh;
+    background-color:darkcyan;
+    border: 5px dotted slategray;
+  }
+  
+  main{
+    min-height: 70vh;
+    background-color: darkgray;
+  }
+
+  footer{
+    height: 10vh;
+    background-color:darkcyan;
+    border: 5px dotted slategray;
+  }
+
+  nav{
+    display: inline-block;
+    padding: 15x;
+  }
+
+  h1, h2 {
+    padding: 5px;
+    color:beige ;
+  }
+  
+  input {
+    background-color: darkcyan;
+  }
+  
+  textarea {
+    background-color: darkcyan;
+  }
+
+  .info {
+    font-size: 20px;
+     }
+
+  [href]{
+    font-style: oblique;
+  }
+
+  label.kon {
+    color:azure;
+  }
+ 

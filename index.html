@@ -7,6 +7,7 @@
     <meta name="description" content="turistička agencija" />
     <meta name="author" content="Marta Tomljanović" />
     <title>Turistička agencija "Avanturist"</title>
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
     <header>
@@ -21,7 +22,7 @@
     <main>
       <h1>Turistička agencija "Avanturist"</h1>
       <br />
-      <section id="onama">
+      <section id="onama" class="info">
         <h2>O nama</h2>
         <br />
         <p>
@@ -33,7 +34,8 @@
         <br />
         <img src="./team.jpg" alt="team" /><br />
       </section>
-      <section id="djelatnosti">
+      <br />
+      <section id="djelatnosti" class="info">
         <h2>Naše djelatnosti</h2>
         <br />
         <p>
@@ -49,12 +51,12 @@
         <h2>Kontakt</h2>
         <br />
         <form action="#" method="post">
-          <label for="fname">Ime:</label>
+          <label for="fname" class="kon">Ime:</label>
           <input type="text" id="fname" name="fname" required /> <br />
           <br />
-          <label for="lname">Prezime</label>
+          <label for="lname" class="kon">Prezime</label>
           <input type="text" id="lname" name="lname" required /><br /><br />
-          <label for="email">Email</label>
+          <label for="email" class="kon">Email</label>
           <input
             type="email"
             name="email"

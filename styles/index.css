@@ -6,6 +6,7 @@
   text-align: center;
   font-family:sans-serif;
 }
+
   header {
     padding: 10px;
     text-align: center;
@@ -59,4 +60,29 @@
   label.kon {
     color:azure;
   }
- 
+
+  .dropbtn {
+    background-color:darkcyan; color: whitesmoke; padding: 16px; font-size: 20px; border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:darkcyan;
+    min-width: 160px;
+  }
+  
+  .dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: aquamarine;}
+  
+  .dropdown:hover .dropdown-content {display:block;}

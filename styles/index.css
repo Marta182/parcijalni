@@ -83,7 +83,7 @@
 .topnav img {
   padding: 5px;
   float: left;
- width: 5%;
+ width: 4%;
 }
 
 .topnav a:hover {
@@ -119,14 +119,14 @@
 .dropdown:hover .dropdown-content {
   display:block;}
 
+  q { font-style: italic;}
+
   .row {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-
-  q { font-style: italic;}
 
   .side {
     display: 20%;
